@@ -1,0 +1,189 @@
+body{
+	background-color: #151515;
+}
+
+header{
+	background-color: #212121;
+	width: 100%;
+	color:#fff;
+	padding: 10px; 
+	margin-top: 8px;
+}
+
+header .title{
+    font-weight: bold;
+}
+
+header .section{
+	float: right;
+    font-size: 0.7em;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.artista{
+	width: 140px;
+    height: 140px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.artista img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0.5;
+}
+
+.artista span{
+	color: white;
+    font-size: 0.7em;
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    width: 60%;
+    z-index: 1
+}
+
+.head-artist{
+    width: 100%;
+    background: rgba(44,44,44,1);
+    background: -moz-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 5%, rgba(7,7,7,1) 48%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,44,44,1)), color-stop(0%, rgba(76,76,76,1)), color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(5%, rgba(71,71,71,1)), color-stop(48%, rgba(7,7,7,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 5%, rgba(7,7,7,1) 48%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 5%, rgba(7,7,7,1) 48%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 5%, rgba(7,7,7,1) 48%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 5%, rgba(7,7,7,1) 48%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#131313', GradientType=0 );
+    padding-top: 20px;
+}
+
+.head-artist img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.head-artist h4{
+    float: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.head-artist span{
+    float: left;
+    color: white;
+    font-size: 0.6em;
+    margin-top: 28px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.head-artist span i{
+    color:yellow;
+    margin-right: 3px;
+}
+
+.albums-container{
+    background-color: #303030;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.albums-container .title{
+    color: white;
+}
+
+.album img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.album:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    border-bottom: 1px solid #4b4c4c;
+    margin-top: -10px;
+}
+
+.album .nombre, .album .canciones, .album .play, .head-album h5, .head-album .info{
+    color: white;
+}
+
+.album .nombre{ 
+    font-size:.8em;
+}
+
+.album .canciones{
+font-size:.6em;
+margin-top: -10px;
+}
+
+.album .play{
+font-size: 0.7em;
+margin-top: 10px;
+}
+
+.head-album{
+    width: 100%;
+    background-color:#1d1d1d; 
+    padding: 50px 40px;
+}
+
+.head-album img{
+    width: 100%;
+    border: 1px solid #4a4a4a;
+}
+
+.head-album .info{
+    font-size: 0.8em;
+} 
+
+.body-album{
+    background-color: #000;
+    padding: 40px 30px; 
+    color: white;
+}
+
+.body-album .canciones{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.body-album .cancion{
+    cursor: pointer;
+}
+
+.body-album .cancion:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #1f1f1f;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.bar{
+    background-color: #303030;
+    padding-top: 10px; 
+    color: white;
+    height: 55px;
+}
+
+.link-album{
+    cursor: pointer;
+    height: 50px;
+}
+
+.link-album:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid #656565;
+    margin-bottom: 20px;
+}
